@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-23T21:49:30-04:00</updated><id>http://localhost:4000/</id><title type="html">Just Confused</title><subtitle>A blog where I can write about various technical and personal things.</subtitle><entry><title type="html">JBlog Jekyll Theme</title><link href="http://localhost:4000/JBlog-theme/" rel="alternate" type="text/html" title="JBlog Jekyll Theme" /><published>2016-03-21T00:00:00-04:00</published><updated>2016-03-21T00:00:00-04:00</updated><id>http://localhost:4000/JBlog-theme</id><content type="html" xml:base="http://localhost:4000/JBlog-theme/">&lt;p class=&quot;image-pull-right&quot;&gt;&lt;img src=&quot;http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/02/1424055625jekyll.png&quot; alt=&quot;jekyll Image&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-09T12:03:32-05:00</updated><id>http://localhost:4000/</id><title type="html">Just Confused</title><subtitle>A blog where I can write about various technical and personal things.</subtitle><entry><title type="html">JBlog Jekyll Theme</title><link href="http://localhost:4000/JBlog-theme/" rel="alternate" type="text/html" title="JBlog Jekyll Theme" /><published>2016-03-21T00:00:00-04:00</published><updated>2016-03-21T00:00:00-04:00</updated><id>http://localhost:4000/JBlog-theme</id><content type="html" xml:base="http://localhost:4000/JBlog-theme/">&lt;p class=&quot;image-pull-right&quot;&gt;&lt;img src=&quot;http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/02/1424055625jekyll.png&quot; alt=&quot;jekyll Image&quot; /&gt;&lt;/p&gt;
 
 &lt;center&gt;&lt;b&gt;JBlog&lt;/b&gt; is a simple jekyll theme.&lt;/center&gt;
 
@@ -273,6 +273,12 @@
 &lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-warning&quot;&gt;Warning Button&lt;/a&gt;&lt;/div&gt;
 &lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;&lt;/div&gt;
 &lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-info&quot;&gt;Info Button&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;mathjax&quot;&gt;MathJax&lt;/h2&gt;
+&lt;p&gt;This is a test for MathJax: $y = f(x)$. A more complex equation:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\forall x\, \exists y \textrm{ s.t. } x &lt; y %]]&gt;&lt;/script&gt;
 
 &lt;h2 id=&quot;notices&quot;&gt;Notices&lt;/h2&gt;
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Markdown Syntax"
 date:   2016-03-15
 excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
+mathjax: true
 tag:
 - markdown
 - syntax
@@ -97,7 +98,8 @@ Make any link standout more when applying the `.btn` class.
 
 ## MathJax
 This is a test for MathJax: $y = f(x)$. A more complex equation:
-$$ \forall x \exists y \textrm{ s.t. } x < y $$
+
+$$ \forall x\, \exists y \textrm{ s.t. } x < y $$
 
 ## Notices
 

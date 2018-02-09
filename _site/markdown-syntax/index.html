@@ -41,6 +41,26 @@
     <link rel="alternate" type="application/rss+xml" title="Just Confused" href="http://localhost:4000/feed.xml" />
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/main.css">
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
+    </script>
+    <script
+      type="text/javascript"
+      charset="utf-8"
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+    >
+    </script>
+    <script
+      type="text/javascript"
+      charset="utf-8"
+      src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
+    >
+    </script>
 </head>
 
   <body>
@@ -264,6 +284,12 @@
 <div><a href="#" class="btn btn-danger">Danger Button</a></div>
 <div><a href="#" class="btn btn-info">Info Button</a></div>
 
+<h2 id="mathjax">MathJax</h2>
+<p>This is a test for MathJax: $y = f(x)$. A more complex equation:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\forall x\, \exists y \textrm{ s.t. } x < y %]]></script>
+
 <h2 id="notices">Notices</h2>
 
 <p class="notice"><strong>Watch out!</strong> You can also add notices by appending <code class="highlighter-rouge"><span class="p">{</span><span class="err">:</span><span class="w"> </span><span class="err">.notice</span><span class="p">}</span></code> to a paragraph.</p>
@@ -317,7 +343,7 @@ $(document).ready(function(){
         <div class="footer">
       <div class="ortalaAna">
         <div class="copy">
-          Just Confused © 2017
+          Just Confused © 2018
         </div>
         <div class="sosyal">
                         <div class="social-links">
