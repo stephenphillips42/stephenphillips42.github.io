@@ -95,6 +95,10 @@ Make any link standout more when applying the `.btn` class.
 <div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
 <div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
 
+## MathJax
+This is a test for MathJax: $y = f(x)$. A more complex equation:
+$$ \forall x \exists y \textrm{ s.t. } x < y $$
+
 ## Notices
 
 **Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
