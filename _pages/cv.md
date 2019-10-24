@@ -11,30 +11,20 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* In Progress: Ph.D in Computer Science, University of Pennsylvania, 2020 (expected)
+* M.S. in Robotics, University of Pennsylvania, 2016
+* B.S. in Computer Science, UCLA, 2014
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2013: Google Software Engineering Intern
+  * Worked improving Google’s Video Search quality, helping locate with higher accuracy video play pages on the web
+  * Researched various techniques to determine their effectiveness in increasing video search quality
 
-* Fall 2015: Research Assistant
+* Summer 2017: Google Software Engineering Intern
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
@@ -53,7 +43,8 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Skills
 ======
-* Currently signed in to 43 different slack teams
+* Programming Languages: Python (adept), MATLAB (experienced), C++ (experienced), Bash (experienced), Lua (capable), Java (capable)
+* Libraries: Tensorflow, Pytorch, Numpy, Scipy, OpenCV, Blender, ROS
