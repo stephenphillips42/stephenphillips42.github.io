@@ -26,16 +26,23 @@ import re
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
-    "proceeding": {
-        "file" : "proceedings.bib",
-        "venuekey": "booktitle",
-        "venue-pretext": "In the proceedings of ",
+    "Undergraduate Research": {
+        "file" : "undergrad.bib",
+        "venuekey": "journal",
+        "venue-pretext": "In the journal of ",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
         
     },
-    "journal":{
-        "file": "pubs.bib",
+    "PhD Publications": {
+        "file": "penn.bib",
+        "venuekey" : "journal",
+        "venue-pretext" : "Proceedings of",
+        "collection" : {"name":"publications",
+                        "permalink":"/publication/"}
+    },
+    "Preprints": {
+        "file": "preprints.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
@@ -84,13 +91,14 @@ for pubsource in publist:
                 pub_day = str(b["day"])
 
                 
-            pub_date = pub_year+"-"+pub_month+"-"+pub_day
+            # pub_date = pub_year+"-"+pub_month+"-"+pub_day
+            pub_date = pub_year # +"-"+pub_month+"-"+pub_day
             
             #strip out {} as needed (some bibtex entries that maintain formatting)
             clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-")    
 
             url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
-            url_slug = url_slug.replace("--","-")
+            url_slug = '-'.join(url_slug.replace("--","-").split('-')[:2])
 
             md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
             html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
