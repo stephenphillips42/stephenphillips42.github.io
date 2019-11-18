@@ -32,12 +32,6 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
 Teaching
 ======
   <ul>{% for post in site.teaching %}
@@ -48,3 +42,4 @@ Skills
 ======
 * Programming Languages: Python (adept), MATLAB (experienced), C++ (experienced), Bash (experienced), Lua (capable), Java (capable)
 * Libraries: Tensorflow, Pytorch, Numpy, Scipy, OpenCV, Blender, ROS
+* From Courses: Convex Optimization, Probability, Machine Learning, Deep Learning, Linear Quadrotor Control, Perceptual Psychology

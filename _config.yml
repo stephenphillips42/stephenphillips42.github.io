@@ -11,7 +11,8 @@ title                    : "Stephen Phillips"
 title_separator          : "-"
 name                     : &name "Stephen Phillips"
 description              : &description "I am a Computer Science PhD at the University of Pennsylvania under Kostas Daniilidis, researching geometric computer vision and machine learning and how the two relate. My main dissertation topic is how to model outlier measurements using deep learning. I have a Bachelor's of Science in Computer Science from UCLA where I studied under Stefano Soatto, working on SLAM, specifically mapping."
-url                      : https://stephenphillips42.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+# url                      : https://stephenphillips42.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : http://127.0.0.1:4000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "stephenphillips42/stephenphillips42.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -81,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "Stephen Phillips"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Computer Science PhD @ University of Pennsylvania"
   location         : "Philadelphia, PA"
   employer         :
@@ -181,10 +182,13 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  undergradpublications:
     output: true
     permalink: /:collection/:path/
   talks:
+    output: true
+    permalink: /:collection/:path/
+  projects:
     output: true
     permalink: /:collection/:path/
 
@@ -227,6 +231,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _undergradpublications
+  - scope:
+      path: ""
+      type: undergradpublications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _portfolio
   - scope:
       path: ""
@@ -242,6 +255,14 @@ defaults:
       type: talks
     values:
       layout: talk
+      author_profile: true
+      share: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
       author_profile: true
       share: true
 

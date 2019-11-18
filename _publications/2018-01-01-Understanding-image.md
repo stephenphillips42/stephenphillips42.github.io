@@ -7,4 +7,6 @@ venue: 'Proceedings ofInternational Conference on Learning Representations (ICLR
 paperurl: 'https://arxiv.org/pdf/1612.00472'
 citation: ' Andrew Jaegle,  Stephen Phillips,  Daphne Ippolito,  Kostas Daniilidis, &quot;Understanding image motion with group representations.&quot; Proceedings ofInternational Conference on Learning Representations (ICLR), 2018.'
 ---
-[Access paper here](https://arxiv.org/pdf/1612.00472){:target="_blank"}
+{:refdef: style="text-align: center;"}
+![Architecture for network trained in "Understanding image motion with group representations"](/images/understanding_image_motion.png)
+{: refdef}
