@@ -62,3 +62,4 @@ So I have also developed some potential ideas to fill some of the wholes. It wou
 Overall, I feel there should be multiple iterations of this to see what works best. There are lots of possibilities.
 
 * [Previous](/creative-writing/entry001)
+* [Next](/creative-writing/entry003)
