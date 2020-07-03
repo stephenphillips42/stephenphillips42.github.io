@@ -10,6 +10,8 @@ redirect_from:
 As I went over the whole story last time, I figured maybe a good place to start would be just the introductory paragraphs - as the opening paragraphs need to be really good. Prose needs to be tight, characterizations brief but strong. You need to hook the reader in really fast. I definitely can't do that yet but This will be an attempt.
 
 Last entry I didn't give the characters names, as the dream didn't given them any. I have several options here, but for now I can just use placeholder names. Here is a table of the names (for my own reference):
+
+
 |------------------------|---------------|
 | Protagonist            | Nellie (Nel)  |
 | Almost Couple - Male   | Ames          |
