@@ -1,15 +1,18 @@
 ---
-title: "Coursera: Robotics: Perception"
+title: "Teaching Assistant - Coursera: Robotics, Perception"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate Course"
 permalink: /teaching/coursera-robotics-perception
 venue: "University of Pennsylvania, CIS Department"
-date: 2015-06-01
+date: 2016-01-01
 location: "Philadelphia, PA, USA"
 ---
 
 ### Course description
 Designed the homework, projects, and infrastructure for the Coursera course [Robotics: Perception](https://www.coursera.org/learn/robotics-perception?), as part of GRASP Lab's [Robotics Specialization](https://www.coursera.org/specializations/robotics) on Coursera. Had to design the codebase, grader, and some of the teaching assets of the course. Also helped with some of the homework for Robotics Capstone course, including visualizations for the projects.
+
+#### Number of students
+20-40 Students
 
 ### Topics covered
 * Camera Models, Camera Calibration
