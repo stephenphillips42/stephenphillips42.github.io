@@ -9,13 +9,14 @@ location: "Philadelphia, PA, USA"
 ---
 
 
-### Course description
+### Course Description
 Online course for Computer Science masters ([MCIT](https://online.seas.upenn.edu/degrees/mcit-online/)) students with no expected background in Computer science. Covered basics of linear algebra to prepare for machine learning applications. Responsible for redesigning the projects and project auto-grader. Other responsibilities include grading, office hours, forum monitoring, and several recitation.
 
-#### Number of students
+### Course Details
+#### Number of Students
 25-35 Students
 
-### Topics covered
+#### Topics Covered
 * Vector Spaces, Bases, Spans
 * Determinants
 * Dot Products

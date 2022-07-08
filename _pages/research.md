@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Publications and Projects"
-permalink: /publications/
+title: "Research"
+permalink: /research/
 author_profile: true
 ---
 ## Current projects

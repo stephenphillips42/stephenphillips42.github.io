@@ -9,12 +9,14 @@ location: "Swarthmore, PA, USA"
 ---
 
 
-### Course description
+### Course Description
 Course to introduce students to the fundamentals of digital and embedded systems. Students also learn basic programming skills, and apply those skills to build embedded systems. Embedded topics include the link between hardware and software, analog to digital and digital to analog systems, and an introduction to actuators (LED's, speakers, servo motors, etc.) and sensors (buttons, accelerometers, microphones, etc.). Primarily taught lectures. Also covered embedded systems in a social context and students gave projects based on it.
+
+### Course Details
 #### Number of Students
 57
 
-### Topics covered
+#### Topics Covered
 * Introduction to Embedded Systems
 * Conditionals
 * Introduction to Binary
