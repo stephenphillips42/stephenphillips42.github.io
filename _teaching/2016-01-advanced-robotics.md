@@ -1,18 +1,22 @@
 ---
-title: "MEAM 620: Advanced Robotics"
+title: "Head Teaching Assistant and Lecturer - MEAM 620: Advanced Robotics"
 collection: teaching
-type: "Graduate course"
+type: "Graduate Course"
 permalink: /teaching/advanced-robotics
 venue: "University of Pennsylvania, MEAM Department"
 date: 2016-02-01
 location: "Philadelphia, PA, USA"
 ---
 
-### Course description
+### Course Description
 The [capstone course](https://alliance.seas.upenn.edu/~meam620/wiki/) for the Robotics Masters program at the University of Pennsylvania. Helped TA this course for 3 separate years: 2016, 2018, and 2019. Covering a wide range of topics, this course teaches the basics of how to design the control and perception for an autonomous quadrotor. It is a heavily project based course. In 2019, I lectured for the majority of the perception based part. In all of the years, I helped design the homework for the perception part of the course, and also maintained the autograder for the projects (using my experience from [CIS 390: Planning and Perception](/teaching/planning-perception)). 
 
-### Topics covered
-#### Planning and Control
+### Course Details
+#### Number of Students
+30-40 Students
+
+#### Topics Covered
+##### Planning and Control
 * Coordinate Frames and Transformations
 * Kinematics, Dynamics for Quadrotors
 * Basic Linear PD Controllers
@@ -21,7 +25,7 @@ The [capstone course](https://alliance.seas.upenn.edu/~meam620/wiki/) for the Ro
 * Trajectory Planning (and some optimization)
 * Differential Flatness (for Quadrotors)
 * Bayesian Filters: Kalman Filters, Extended Kalman Filters
-#### Perception
+##### Perception
 * Camera Models, Camera Calibration 
 * Projective Geometry, analysis and estimation from measurements
 * Pose from Projective Geometry

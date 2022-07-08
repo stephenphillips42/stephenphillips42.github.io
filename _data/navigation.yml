@@ -1,13 +1,10 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
-
-  - title: "Projects"
-    url: /projects/    
+  - title: "Research"
+    url: /research/
 
   - title: "Teaching"
     url: /teaching/    
     
   - title: "CV"
-    url: /cv/
+    url: /files/stephen-phillips-cv.pdf
