@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Stephen Phillips"
 title_separator          : "-"
 name                     : &name "Stephen Phillips"
-description              : &description "I am a Computer Science PhD at the University of Pennsylvania under Kostas Daniilidis, researching geometric computer vision and machine learning and how the two relate. My main dissertation topic is how to model outlier measurements using deep learning. I have a Bachelor's of Science in Computer Science from UCLA where I studied under Stefano Soatto, working on SLAM, specifically mapping."
+description              : &description "I am a Visiting Assistant Professor at the Engineering Department at Swarthmore College. My research is on using machine learning for sensor fusion, with a focus on computer vision. I finished my PhD at the University of Pennsylvania studying under Kostas Daniilidis.  Before coming to the University of Pennsylvania I studied at UCLA under Stefano Soatto."
 url                      : https://stephenphillips42.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # url                      : http://127.0.0.1:4000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Stephen Phillips"
   avatar           : "profile.jpg"
-  bio              : "Computer Science PhD @ University of Pennsylvania"
+  bio              : "Visiting Assistant Professor @ Department of Engineering, Swarthmore College"
   location         : "Philadelphia, PA"
   employer         :
   pubmed           :
