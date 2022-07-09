@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD Student at the University of Pennsylvania studying under [Kostas Daniilidis](https://www.cis.upenn.edu/~kostas/). I study computer vision and Machine Learning. Specifically I study geometric computer vision and deep learning. My dissertation is about the use of deep learning to detect outliers in geometric computer vision applications. Before coming to the University of Pennsylvania I studied at UCLA under [Stefano Soatto](http://web.cs.ucla.edu/~soatto/).
+I am a Visiting Assistant Professor at the Engineering Department at Swarthmore College. My research is on using machine learning for sensor fusion, with a focus on computer vision. I finished my PhD at the University of Pennsylvania studying under [Kostas Daniilidis](https://www.cis.upenn.edu/~kostas/). Before coming to the University of Pennsylvania I studied at UCLA under [Stefano Soatto](http://web.cs.ucla.edu/~soatto/).

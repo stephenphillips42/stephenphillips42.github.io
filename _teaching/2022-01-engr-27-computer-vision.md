@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate Course"
 permalink: /teaching/e27-computer-vision
 venue: "Swarthmore College, Engineering Department"
-date: 2022-01-01
+date: 2022-01-02
 location: "Swarthmore, PA, USA"
 ---
 
