@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="435.6" height="435.6"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="SvgjsSvg1011" x="0px" y="0px" viewBox="0 0 435.6 435.6" style="enable-background:new 0 0 435.6 435.6;" xml:space="preserve" sodipodi:docname="logo.svg" inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata id="SvgjsMetadata1010"><rdf:rdf><cc:work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type></cc:work></rdf:rdf></metadata><defs id="SvgjsDefs1009"></defs><sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="640" inkscape:window-height="480" id="SvgjsSodipodi:namedview1008" showgrid="false" inkscape:zoom="0.54178144" inkscape:cx="217.8" inkscape:cy="217.8" inkscape:window-x="72" inkscape:window-y="27" inkscape:window-maximized="0" inkscape:current-layer="Layer_1"></sodipodi:namedview>
+<style type="text/css" id="SvgjsStyle1007">
+	.st0{fill:#8BD1D6;}
+	.st1{fill:#D9EFF2;}
+	.st2{fill:#111111;}
+</style>
+
+<circle class="st1" cx="217.8" cy="217.8" r="217.8" id="SvgjsCircle1006"></circle>
+<g id="SvgjsG1005" transform="matrix(1.7892096358186005,0,0,1.7892096358186005,0,0)">
+	<path class="st2" d="M121.7,237.8c64.1,0,116.1-52,116.1-116.1S185.8,5.7,121.7,5.7S5.7,57.6,5.7,121.7S57.6,237.8,121.7,237.8   L121.7,237.8z M121.7,11.6c60.7,0,110.1,49.4,110.1,110.1s-49.4,110.1-110.1,110.1S11.6,182.4,11.6,121.7S61,11.6,121.7,11.6   L121.7,11.6z" id="SvgjsPath1004"></path>
+	<path class="st2" d="M121.7,228.3c58.8,0,106.5-47.7,106.5-106.5S180.6,15.2,121.7,15.2S15.2,62.9,15.2,121.7   S62.9,228.3,121.7,228.3L121.7,228.3z M121.7,17.6c57.4,0,104.1,46.7,104.1,104.1s-46.7,104.1-104.1,104.1S17.6,179.2,17.6,121.7   S64.3,17.6,121.7,17.6L121.7,17.6z" id="SvgjsPath1003"></path>
+	<path class="st2" d="M121.7,243.5c67.1,0,121.7-54.6,121.7-121.7S188.8,0,121.7,0S0,54.6,0,121.7S54.6,243.5,121.7,243.5z    M121.7,2.4c65.8,0,119.3,53.5,119.3,119.3s-53.5,119.3-119.3,119.3c-65.8,0-119.3-53.5-119.3-119.3S55.9,2.4,121.7,2.4z" id="SvgjsPath1002"></path>
+</g>
+<g id="SvgjsG1001" transform="matrix(7.893345528577869,0,0,7.893345528577869,88.00000376384045,-69.44979301060548)">
+	<path class="st2" d="M8.5,47.1c-3.5,0-6.4-2.9-6.4-6.4V37h4.5v3.7c0,1,0.9,1.9,1.9,1.9c1,0,1.9-0.8,1.9-1.9v-2l-8.2-8.5v-3.8   c0-3.5,2.9-6.4,6.4-6.4s6.4,2.9,6.4,6.4v3h-4.5v-3c0-1-0.8-1.9-1.9-1.9c-1,0-1.9,0.8-1.9,1.9v1.9l8.2,8.6v3.9   C14.9,44.2,12,47.1,8.5,47.1z M22.4,47v8.2h-4.5V20.1h7.1c3.1,0,5.7,2.5,5.7,5.7v15.5c0,3.1-2.5,5.7-5.7,5.7H22.4z M22.4,24.7v17.8   h2.5c0.7,0,1.1-0.5,1.1-1.1V25.8c0-0.6-0.5-1.1-1.1-1.1H22.4z" id="SvgjsPath1000"></path>
+</g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: invert(100%); } }
+</style></svg>
