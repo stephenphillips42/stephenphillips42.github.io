@@ -11,13 +11,18 @@
 }
 
 * { box-sizing: border-box; }
-html, body { height: 100%; }
+html {
+  min-height: 100%;
+  background: radial-gradient(1200px 700px at 25% -20%, rgba(122,162,255,0.25), transparent),
+              radial-gradient(900px 600px at 90% 0%, rgba(130,255,204,0.12), transparent),
+              #0b0d12;
+  background-attachment: fixed;
+}
+
 body {
   margin: 0;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-  background: radial-gradient(1200px 700px at 25% -20%, rgba(122,162,255,0.25), transparent),
-              radial-gradient(900px 600px at 90% 0%, rgba(130,255,204,0.12), transparent),
-              var(--bg);
+  background: transparent;
   color: var(--fg);
   line-height: 1.35;
 }

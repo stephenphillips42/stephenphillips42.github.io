@@ -7,13 +7,22 @@ const CONTENT = {
     phone: "(714) 388-2104",
   },
 
-  intros: {
+  brief_intros: {
     overview:
       "Robotics & computer vision researcher and educator. I build perception systems end-to-end and care deeply about mentoring, teaching, and making technically deep work accessible.",
     industry:
       "Applied scientist and research engineer in robotics and computer vision, focused on mentoring, collaborative research support, and system integration.",
     teaching:
       "Computer vision and robotics researcher with extensive experience designing and teaching technically rigorous courses, with a focus on mentoring and project-based learning.",
+  },
+
+  intros: {
+    overview:
+      "I am an applied scientist and research engineer working in robotics and computer vision, with a strong emphasis on mentoring, collaborative research support, and system integration. My work focuses on helping teams solve technically deep problems by bridging theory and practice, building reliable perception and learning systems, and developing a shared understanding of complex tools and models. I thrive in small, highly collaborative environments that value ownership, technical depth, and close mentorship.",
+    industry:
+      "I am an applied scientist and research engineer working in robotics and computer vision, with a strong emphasis on mentoring, collaborative research support, and system integration. My work focuses on helping teams solve technically deep problems by bridging theory and practice, building reliable perception and learning systems, and developing a shared understanding of complex tools and models. I thrive in small, highly collaborative environments that value ownership, technical depth, and close mentorship.",
+    teaching:
+      "I am a computer vision and robotics researcher with extensive experience designing and teaching technically rigorous undergraduate and graduate courses. I am particularly motivated by mentoring students and helping them bridge mathematical foundations with real-world systems through project-based learning. Alongside teaching, I contribute to collaborative research and applied engineering efforts that connect theory to practice.",
   },
 
   // Section content below is lifted/adapted from your CV markdown.
@@ -64,10 +73,10 @@ const CONTENT = {
   ],
 
   publications: [
-    "Evora: Deep evidential traversability learning for risk-aware off-road autonomy. IEEE T-RO (2024).",
-    "All graphs lead to Rome: Learning geometric and cycle-consistent representations with GCNs. CVPR Workshop (2019).",
-    "Unsupervised learning of image motion by recomposing sequences. ICLR (2018).",
-    "Fast, robust, continuous monocular egomotion computation. ICRA (2016).",
+    "Xiaoyi Cai, Siddharth Ancha, Lakshay Sharma, Philip R Osteen, Bernadette Bucher, Stephen Phillips, Jiuguang Wang, Michael Everett, Nicholas Roy, and Jonathan P How. 2024. Evora: Deep evidential traversability learning for risk-aware off-road autonomy. IEEE Transactions on Robotics (2024).",
+    "Stephen Phillips and Kostas Daniilidis. 2019. All graphs lead to Rome: Learning geometric and cycle-consistent representations with graph convolutional networks. CVPR 2019 Image Matching: Local Features and Beyond Workshop (2019).",
+    "Stephen Phillips, Andrew Jaegle, Daphne Ippolito, and Kostas Daniilidis. 2018. Unsupervised learning of image motion by recomposing sequences. International Conference on Learning Representations (ICLR) (2018).",
+    "Stephen Phillips, Andrew Jaegle, and Kostas Daniilidis. 2016. Fast, robust, continuous monocular egomotion computation. In Proceedings of the IEEE International Conference on Robotics and Automation (ICRA) 2016, 773–780.",
   ],
 
   teaching: [
@@ -116,9 +125,9 @@ const CONTENT = {
 
 // ---- View-specific section ordering (from your cv_template.md) ----
 const VIEW_ORDER = {
-  overview: ["education", "research", "software", "publications", "teaching", "awards", "outreach", "charity"],
-  teaching: ["education", "teaching", "publications", "research", "software", "awards", "outreach", "charity"],
-  industry: ["education", "research", "software", "publications", "teaching", "awards", "outreach", "charity"],
+  overview: ["education", "research", "software", "publications", "teaching", "awards"],
+  teaching: ["education", "teaching", "publications", "research", "software", "early", "awards", "outreach", "charity"],
+  industry: ["education", "research", "software", "publications", "early", "additional", "teaching", "awards", "outreach", "charity"],
 };
 
 const SECTION_TITLES = {
@@ -217,7 +226,7 @@ const tabs = Array.from(tablist.querySelectorAll('[role="tab"]'));
 
 function setTagline(view) {
   const t = document.getElementById("tagline");
-  t.textContent = CONTENT.intros[view] || "";
+  t.textContent = CONTENT.brief_intros[view] || "";
 }
 
 function activateTab(tab) {
