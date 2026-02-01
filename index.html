@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stephen Phillips</title>
+  <meta name="description" content="Robotics & computer vision — applied scientist, research engineer, educator." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="topline">
+        <div>
+          <h1 class="name">Stephen Phillips</h1>
+          <p class="tagline" id="tagline"></p>
+        </div>
+
+        <nav class="links" aria-label="External links">
+          <a href="mailto:contact@stephenphillips.xyz">contact@stephenphillips.xyz</a>
+          <span class="sep">·</span>
+          <a href="https://stephenphillips.xyz" rel="me">stephenphillips.xyz</a>
+          <span class="sep">·</span>
+          <a href="assets/CV-Stephen-Phillips.pdf">CV (PDF)</a>
+        </nav>
+      </div>
+
+      <!-- Tabs / View Switcher -->
+      <div class="tabs" role="tablist" aria-label="Profile views">
+        <button class="tab" role="tab" id="tab-overview" aria-controls="panel-overview" aria-selected="true">
+          Overview
+        </button>
+        <button class="tab" role="tab" id="tab-industry" aria-controls="panel-industry" aria-selected="false" tabindex="-1">
+          Industry
+        </button>
+        <button class="tab" role="tab" id="tab-teaching" aria-controls="panel-teaching" aria-selected="false" tabindex="-1">
+          Teaching
+        </button>
+      </div>
+
+      <!-- “Panel” is just a container; content will be injected into it -->
+      <main class="panel" role="tabpanel" id="panel-overview" aria-labelledby="tab-overview"></main>
+      <main class="panel" role="tabpanel" id="panel-industry" aria-labelledby="tab-industry" hidden></main>
+      <main class="panel" role="tabpanel" id="panel-teaching" aria-labelledby="tab-teaching" hidden></main>
+    </div>
+  </header>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="muted">
+        © <span id="year"></span> Stephen Phillips · Built with plain HTML/CSS/JS.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
