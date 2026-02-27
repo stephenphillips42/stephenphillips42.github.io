@@ -1,8 +1,8 @@
 // ---- Content model (single source of truth) ----
-const CV_URLS = {
-  overview: "assets/industry/CV-Stephen-Phillips.pdf",
-  industry: "assets/industry/CV-Stephen-Phillips.pdf",
-  teaching: "assets/teaching/CV-Stephen-Phillips.pdf",
+const CV_LINK_STYLES = {
+  overview: { "cv-industry-link": false, "cv-teaching-link": false },
+  industry: { "cv-industry-link": true, "cv-teaching-link": false },
+  teaching: { "cv-industry-link": false, "cv-teaching-link": true },
 }
 const CONTENT = {
   contact: {
@@ -402,7 +402,13 @@ function activateTab(tab) {
   const panelId = tab.getAttribute("aria-controls");
   const view = tab.id.replace("tab-", "");
   // Change CV link
-  document.getElementById("cv-link").href = CV_URLS[view];
+  for (const [link_id, use_style] of Object.entries(CV_LINK_STYLES[view])) {
+    if (use_style) {
+      document.getElementById(link_id).classList.add("bold-link")
+    } else {
+      document.getElementById(link_id).classList.remove("bold-link")
+    }
+  }
   // Change page content
   tabs.forEach(t => {
     const selected = (t === tab);

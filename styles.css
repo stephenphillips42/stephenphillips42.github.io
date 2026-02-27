@@ -30,6 +30,9 @@ body {
 a { color: var(--fg); text-decoration: none; }
 a:hover { text-decoration: underline; }
 .container { max-width: var(--maxw); margin: 0 auto; padding: 24px; }
+.bold-link {
+  font-weight: bold; /* Values 700 to 900 also produce bolding */
+}
 
 .site-header { padding-top: 28px; }
 .topline {
