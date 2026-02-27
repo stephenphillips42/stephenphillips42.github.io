@@ -1,4 +1,9 @@
 // ---- Content model (single source of truth) ----
+const CV_URLS = {
+  overview: "assets/industry/CV-Stephen-Phillips.pdf",
+  industry: "assets/industry/CV-Stephen-Phillips.pdf",
+  teaching: "assets/teaching/CV-Stephen-Phillips.pdf",
+}
 const CONTENT = {
   contact: {
     email: "contact@stephenphillips.xyz",
@@ -393,9 +398,12 @@ function setTagline(view) {
 }
 
 function activateTab(tab) {
+  // Get selected tab
   const panelId = tab.getAttribute("aria-controls");
   const view = tab.id.replace("tab-", "");
-
+  // Change CV link
+  document.getElementById("cv-link").href = CV_URLS[view];
+  // Change page content
   tabs.forEach(t => {
     const selected = (t === tab);
     t.setAttribute("aria-selected", selected ? "true" : "false");
