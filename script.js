@@ -1,5 +1,4 @@
 // ---- Content model (single source of truth) ----
-// Start simple: copy/edit content here. Later, you can move this object into content.json.
 const CONTENT = {
   contact: {
     email: "contact@stephenphillips.xyz",
@@ -29,11 +28,11 @@ const CONTENT = {
   // Keep it concise on the site: the PDF remains the full canonical detail.
   education: [
     "University of Pennsylvania — Ph.D. in Computer Science (Advisor: Kostas Daniilidis) — Aug 2014 – May 2021",
-    "University of Pennsylvania — M.Sc. in Computer Science — Aug 2014 – Jun 2016",
+    "University of Pennsylvania — M.Sc. in Computer Science (GPA 3.96) — Aug 2014 – Jun 2016",
     "University of California, Los Angeles — B.S. in Computer Science (GPA 3.97) — Aug 2010 – Jun 2014",
   ],
 
-  research: [
+  industry: [
     {
       title: "Roboticist / Applied Scientist",
       meta: "Robotics and AI Institute — Cambridge, MA — May 2023 – Present",
@@ -43,6 +42,9 @@ const CONTENT = {
         "Built semantic mapping pipelines combining self-supervised visual features with LiDAR odometry.",
       ],
     },
+  ],
+
+  academic: [
     {
       title: "Visiting Assistant Professor",
       meta: "Swarthmore College — Sep 2021 – May 2023",
@@ -83,22 +85,152 @@ const CONTENT = {
     {
       title: "Engineering 27 / CS 72 — Computer Vision",
       meta: "Swarthmore College — Instructor — Jan 2022 – May 2023 (2×)",
+      pre_bullets: [
+        "Sophomore/junior level, 15 students",
+      ],
       bullets: [
-        "Updated ~20 lectures, 12 homework assignments, and projects including an open-ended capstone.",
+        "Updated 22 lectures, 12 homework assignments, and projects including an open-ended capstone.",
+      ],
+      post_bullets: [
+        "Fundamentals of computer vision, image processing, neural networks, and 3D reconstruction.",
       ],
     },
     {
       title: "Engineering 71 — Digital Signal Processing",
       meta: "Swarthmore College — Instructor — Jan 2022 – May 2022",
+      pre_bullets: [
+        "Junior/senior level, five students",
+      ],
       bullets: [
-        "Designed lectures + projects (DNA correlation, LPC, sound classification, band-pass filtering).",
+        "Designed lectures and projects (DNA correlation, LPC, sound classification, band-pass filtering).",
+      ],
+      post_bullets: [
+        "Discrete time signals, Z-transforms, Fourier Transforms, and the Fast Fourier Transform.",
       ],
     },
     {
       title: "Engineering 15 — Fundamentals of Digital and Embedded Systems",
       meta: "Swarthmore College — Co-instructor — Aug 2021 – Dec 2022 (2×)",
+      pre_bullets: [
+        "Freshman level, 50 students",
+      ],
       bullets: [
         "Designed lectures, homework, exams; used Circuit Playground & embedded programming labs.",
+      ],
+      post_bullets: [
+        "Introducing programming with Arduino, and laboratory assignments on hardware implementations.",
+      ],
+    },
+    {
+      title: "Engineering 19 — Numerical Methods and Applications in Engineering",
+      meta: "Swarthmore College — Instructor — Aug 2021 – Dec 2021",
+      pre_bullets: [
+        "Sophomore level, 19 students",
+      ],
+      bullets: [
+        "Designed all 22 lectures, 12 homework assignments, two exams, and five projects, and one open-ended final project.",
+      ],
+      post_bullets: [
+        "Introduction to Python, NumPy, and SciPy, basic numerical method algorithms and analysis.",
+      ],
+    },
+    {
+      title: "CIS 107/VLST 209 -— Visual Culture through the Computer's Eye",
+      meta: "University of Pennsylvania — Co-instructor — Jan 2021 – Jun 2021",
+      pre_bullets: [
+        "Junior level, online, 15 students (approximately evenly split between Humanities and Engineering)",
+      ],
+      bullets: [
+        "Designed engineering-oriented lectures, facilitated class discussions, mentored student teams in designing datasets.",
+      ],
+      post_bullets: [
+        "Intersection of computer vision and visual studies, dataset and algorithm design, discussion and writing on the real-world stakes of computer vision and the digital humanities.",
+      ],
+    },
+  ],
+
+  teaching_assistant: [
+    {
+      title: "MCIT 515 — Linear Algebra for Machine Learning",
+      meta: "University of Pennsylvania — Head teaching assistant — Jul 2020 – Dec 2020",
+      pre_bullets: [
+        "Master's level, online, 25-35 students. (No background assumed).",
+      ],
+      main_bullets: [
+        "Updated 22 lectures, 12 homework assignments, and projects including an open-ended capstone.",
+      ],
+      post_bullets: [
+        "Graded homework assignments, developed a project auto-grader, and held office hours.",
+      ],
+    },
+    {
+      title: "MEAM620 — Advanced Robotics",
+      meta: "University of Pennsylvania — Lecturer and teaching assistant — Jan 2016 – May 2019",
+      pre_bullets: [
+        "Master's level, 30-40 students",
+      ],
+      bullets: [
+        "Held office hours, designed an auto-grader, assisted with hardware testing for student projects, and designed and delivered six lectures on computer vision for robotics.",
+      ],
+      post_bullets: [
+        "Robotic path planning, control theory, and machine perception/computer vision for quadrotors, with projects using real quadrotors.",
+      ],
+    },
+    {
+      title: "CIS390 — Robotics: Planning and Perception",
+      meta: "University of Pennsylvania — Lecturer and teaching assistant — Sep 2015 – Dec 2015",
+      pre_bullets: [
+        "Sophomore level, 20 students",
+      ],
+      bullets: [
+        "Course designed from scratch with other teaching assistants; primary responsibility was designing a simulation environment to test robotic planning algorithms for course coding projects.",
+      ],
+      post_bullets: [
+        "New course in robotic path planning algorithms with Python projects.",
+      ],
+    },
+    {
+      title: "Coursera — Robotics: Perception",
+      meta: "University of Pennsylvania (Online) — Teaching assistant and homework designer — Jan 2016 – Jul 2016",
+      pre_bullets: [
+        "General audience, online",
+      ],
+      bullets: [
+        "Designed four homework assignments, wrote supporting teaching material, and wrote an auto-grader for all assignments.",
+      ],
+      post_bullets: [
+        "Perception module of the UPenn Robotics Specialization on Coursera, focused on basics of computer vision such as the image formation process up to multi-view geometry.",
+      ],
+    }
+  ],
+
+  early: [
+    {
+      title: "UCLA Vision Lab — Undergraduate Researcher",
+      meta: "Los Angeles, CA — Aug 2013 – Jul 2014",
+      bullets: [
+        "Implemented visual-inertial odometry loop-closure system.",
+      ],
+    },
+    {
+      title: "UCLA Ozcan Lab — Android Developer Lead",
+      meta: "Los Angeles, CA — Oct 2012 – Oct 2013",
+      bullets: [
+        "Led mobile medical imaging team; contributed to 4 publications.",
+      ],
+    },
+    {
+      title: "Google — Software Engineering Intern",
+      meta: "Venice Beach, CA — Jun 2013 – Aug 2013",
+      bullets: [
+        "Spam filtering for Google Video Search.",
+      ],
+    },
+    {
+      title: "Zynx — Software Engineering Intern",
+      meta: "Westwood, CA — Jun 2012 – Aug 2012",
+      bullets: [
+        "Medical database synchronization tool.",
       ],
     },
   ],
@@ -124,21 +256,34 @@ const CONTENT = {
 };
 
 // ---- View-specific section ordering (from your cv_template.md) ----
-const VIEW_ORDER = {
-  overview: ["education", "research", "software", "publications", "teaching", "awards"],
-  teaching: ["education", "teaching", "publications", "research", "software", "early", "awards", "outreach", "charity"],
-  industry: ["education", "research", "software", "publications", "early", "additional", "teaching", "awards", "outreach", "charity"],
-};
-
-const SECTION_TITLES = {
-  education: "Education",
-  research: "Research Experience",
-  software: "Software Engineering Experience",
-  publications: "Selected Publications",
-  teaching: "Teaching Experience",
-  awards: "Awards & Certificates",
-  outreach: "Outreach & Volunteering",
-  charity: "Charity Projects",
+const SECTIONS = {
+  overview: {
+    "Education": [ "education" ],
+    "Research Experience": ["industry", "academic"],
+    "Software Engineering Experience": ["software"],
+    "Selected Publications": ["publications"],
+    "Teaching Experience": ["teaching"],
+    "Awards": ["awards"],
+  },
+  teaching: {
+    "Education": [ "education" ],
+    "Teaching Experience": ["teaching_more"],
+    "Academic Experience": ["academic"],
+    "Selected Publications": ["publications"],
+    "Industry Experience": ["industry", "software"],
+    "Teaching Assistant Experience": ["teaching"],
+    "Awards": ["awards"],
+    "Outreach": ["outreach"],
+    "Charity": ["charity"],
+  },
+  industry: {
+    "Education": [ "education" ],
+    "Experience": ["industry", "academic", "software"],
+    "Selected Publications": ["publications"],
+    "Teaching Experience": ["teaching_less"],
+    "Early Experience": ["early"],
+    "Awards": ["awards"],
+  },
 };
 
 // ---- Rendering helpers ----
@@ -159,16 +304,22 @@ function renderListSection(items) {
   return ul;
 }
 
-function renderCardItems(items) {
+function renderCardItems(items, bullet_type) {
   const wrap = el("div");
   items.forEach(it => {
     const card = el("div", { class: "item" }, [
       el("div", { class: "title" }, [document.createTextNode(it.title)]),
       el("div", { class: "meta" }, [document.createTextNode(it.meta || "")]),
     ]);
-    if (it.bullets?.length) {
+    if (!(bullet_type == "less") && it.bullets?.length) {
       const ul = el("ul");
+      if (bullet_type == "more" && it.pre_bullets?.length) {
+        it.pre_bullets.forEach(b => ul.append(el("li", {}, [document.createTextNode(b)])));
+      }
       it.bullets.forEach(b => ul.append(el("li", {}, [document.createTextNode(b)])));
+      if (bullet_type == "more" && it.post_bullets?.length) {
+        it.post_bullets.forEach(b => ul.append(el("li", {}, [document.createTextNode(b)])));
+      }
       card.append(ul);
     }
     wrap.append(card);
@@ -176,29 +327,41 @@ function renderCardItems(items) {
   return wrap;
 }
 
-function renderSection(key) {
-  const title = SECTION_TITLES[key] || key;
-  const section = el("section", { class: "section", "data-section": key }, [
+function renderSection(title, section_keys) {
+  const section = el("section", { class: "section", "data-section": title }, [
     el("h2", {}, [document.createTextNode(title)]),
   ]);
 
-  const data = CONTENT[key];
-  if (!data) {
-    section.append(el("p", { class: "muted" }, [document.createTextNode("Content coming soon.")]));
-    return section;
-  }
+  section_keys.forEach(init_key => {
+    var bullet_type = "normal";
+    var key = init_key;
+    const more_suffix = "_more";
+    const less_suffix = "_less";
+    if (!(init_key in CONTENT) && init_key.endsWith(more_suffix)) {
+      key = init_key.substring(0, init_key.length - more_suffix.length);
+      bullet_type = "more";
+    } else if (!(init_key in CONTENT) && init_key.endsWith(less_suffix)) {
+      key = init_key.substring(0, init_key.length - less_suffix.length);
+      bullet_type = "less";
+    }
+    const data = CONTENT[key];
+    if (!data) {
+      section.append(el("p", { class: "muted" }, [document.createTextNode("Content coming soon.")]));
+      return section;
+    }
 
-  if (Array.isArray(data) && typeof data[0] === "string") {
-    section.append(renderListSection(data));
-    return section;
-  }
+    if (Array.isArray(data) && typeof data[0] === "string") {
+      section.append(renderListSection(data));
+      return section;
+    }
 
-  if (Array.isArray(data) && typeof data[0] === "object") {
-    section.append(renderCardItems(data));
-    return section;
-  }
+    if (Array.isArray(data) && typeof data[0] === "object") {
+      section.append(renderCardItems(data, bullet_type));
+      return section;
+    }
 
-  section.append(el("p", {}, [document.createTextNode(String(data))]));
+    section.append(el("p", {}, [document.createTextNode(String(data))]));
+  });
   return section;
 }
 
@@ -215,8 +378,8 @@ function renderView(viewName, panelEl) {
   );
 
   // Ordered sections
-  for (const key of VIEW_ORDER[viewName]) {
-    panelEl.append(renderSection(key));
+  for (const [title, section_order] of Object.entries(SECTIONS[viewName])) {
+    panelEl.append(renderSection(title, section_order));
   }
 }
 
