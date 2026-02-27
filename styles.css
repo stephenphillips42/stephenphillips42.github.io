@@ -32,7 +32,30 @@ a:hover { text-decoration: underline; }
 .container { max-width: var(--maxw); margin: 0 auto; padding: 24px; }
 
 .site-header { padding-top: 28px; }
-.topline { display: flex; gap: 18px; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
+.topline {
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.hero-text {
+  flex: 1;
+}
+
+.textured-bevel-container {
+  flex: 0 0 18em; /* fixed width column */
+}
+
+.textured-bevel-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 4em;
+  border: 0.5em solid rgba(255, 255, 255, 0.15);
+  box-shadow:
+    0 0.2em 0.3em rgba(0, 0, 0, 0.5),
+    0 0 0 0.2em rgba(255, 255, 255, 0.05);
+}
 
 .name { margin: 0; font-size: 32px; letter-spacing: -0.02em; }
 .tagline { margin: 6px 0 0 0; color: var(--muted); max-width: 70ch; }
