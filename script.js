@@ -22,7 +22,7 @@ const CONTENT = {
 
   intros: {
     overview:
-      "I am an applied scientist and research engineer working in robotics and computer vision, with a strong emphasis on mentoring, collaborative research support, and system integration. My work focuses on helping teams solve technically deep problems by bridging theory and practice, building reliable perception and learning systems, and developing a shared understanding of complex tools and models. I thrive in small, highly collaborative environments that value ownership, technical depth, and close mentorship.",
+      "I am an applied scientist and researcher working at the intersection of robotics and computer vision, with a focus on bridging theory and practice across both research and education. Whether mentoring students through complex systems or helping engineering teams solve technically deep problems, I bring the same commitment to building shared understanding and connecting mathematical foundations to real-world application. I thrive in small, collaborative environments that value technical depth, ownership, and close mentorship.",
     industry:
       "I am an applied scientist and research engineer working in robotics and computer vision, with a strong emphasis on mentoring, collaborative research support, and system integration. My work focuses on helping teams solve technically deep problems by bridging theory and practice, building reliable perception and learning systems, and developing a shared understanding of complex tools and models. I thrive in small, highly collaborative environments that value ownership, technical depth, and close mentorship.",
     teaching:
@@ -264,10 +264,10 @@ const CONTENT = {
 const SECTIONS = {
   overview: {
     "Education": [ "education" ],
-    "Research Experience": ["industry", "academic"],
-    "Software Engineering Experience": ["software"],
+    "Research Experience": ["industry_less", "academic_less"],
+    "Software Engineering Experience": ["software_less"],
     "Selected Publications": ["publications"],
-    "Teaching Experience": ["teaching"],
+    "Teaching Experience": ["teaching_less"],
     "Awards": ["awards"],
   },
   teaching: {
